@@ -27,5 +27,5 @@ loginform.addEventListener("submit", (event) => {
     };
     localStorage.setItem("email", JSON.stringify(loginData));
   }
-  window.location.href = "/fakestore";
+  window.location.href = "/";
 });
